@@ -1,0 +1,327 @@
+:root{
+    --white : #fff;
+    --black : #000;
+
+    --hover : #9bf1ff;
+    --main  : #BCDBE5;
+    --secondary : #0B3E1F;
+}
+
+html{
+    background-color: var(--main);
+    color: var(--white);
+    font-family: 'Roboto+Condensed', sans-serif;
+}
+
+nav{
+    position: relative;
+    float: right;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.noback{
+    color: var(--white);
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+#arrow{
+    margin-left: 25px;
+}
+
+.noback:hover{
+    color: var(--main);
+    transition: 0.5s;
+}
+
+#menu{
+    margin-right: 80px;
+}
+
+#menu li{
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+#blue{
+    color: var(--main);
+    border-bottom: solid 3px var(--main);
+}
+
+#menu a{
+    font-size: 25px;
+}
+
+.white{
+    color: var(--white);
+}
+
+.white:hover{
+    color: var(--main);
+    transition: 0.1s;
+    border-bottom: solid 3px var(--main);
+}
+
+.intro{
+    padding: 250px 250px 0 250px; 
+    background: url(../images/partie1.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#test{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.intro h1{
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    width: 48%;
+    left: 850px;
+    bottom: 350px;
+    text-shadow: 2px 2px 2px var(--black);
+}
+
+.intro img{
+    position: relative;
+    width: 600px;
+    left: 50px;
+    bottom: 30px;
+}
+
+#part1 p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    padding-right: 0;
+    text-shadow: 2px 2px 2px var(--black);
+}
+
+#part1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px var(--black);
+    width: 100%;
+}
+
+#part1{
+    margin-left: 350px;
+}
+
+#part1 span{
+    display: flex;
+}
+
+#avis i{
+    color: var(--secondary);
+    font-size: 25px;
+}
+
+#avis a{
+    color: var(--white);
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+#avis{
+    margin-top: 150px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+#avis a:hover{
+    color: var(--secondary);
+    transition: 0.7s;
+}
+
+#avis div{
+    margin-bottom: 40px;
+}
+
+#div2 ul p{
+    font-size: 20px;
+    color: var(--white);
+    border-bottom: solid 3px var(--secondary);
+    font-weight: bold;
+    width: 500px;
+}
+
+section{
+    display: flex;
+}
+
+#div2 button{
+    display: flex;
+}
+
+#basket{
+    background-color: var(--secondary);
+    border-radius: 30px;
+    padding: 15px 40px;
+    color: var(--main);
+    margin-top: 80px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+#basket:hover{
+    color: var(--white);
+    transition: 0.7s;
+}
+
+.marge{
+    padding: 25px 0;
+}
+
+#a{
+    padding-right: 400px;
+}
+
+#b{
+    padding-right: 361px;
+}
+
+#c{
+    padding-right: 317px;
+}
+
+#d{
+    padding-right: 325px;
+}
+
+.marge2{
+    z-index: 0;
+    position: relative;
+    right: 150px;
+    top: 25px;
+}
+
+#div{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    border-top: solid 3px var(--secondary);
+}
+
+footer h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#newsletter{
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#newsletter h1{
+    margin-bottom: 15px;
+}
+
+#newsletter p{
+    width: 70%;
+}
+
+#newsletter a{
+    color: var(--white);
+    border-bottom: solid 1px var(--white);
+}
+
+#size{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#size2{
+    font-size: 12px;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 30px 0 0 30px;
+    padding: 10px 10px;
+    opacity: 0.7;
+}
+
+#newsletter button{
+    border-radius: 0 30px 30px 0;
+    padding: 10px 15px;
+    background-color: var(--white);
+}
+
+#newsletter button:hover{
+    color: var(--main);
+    transition: 0.5s;
+}
+
+#reseaux ul{
+    display: flex;
+}
+
+#reseaux{
+    margin-left: 100px;
+}
+
+#reseaux a{
+    color: var(--white);
+}
+
+#reseaux a:hover{
+    color: var(--secondary);
+    transition: 0.5s;
+}
+
+#reseaux li{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#reseaux h1{
+    margin-left: 18px;
+    border-bottom: solid 3px var(--white);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#lelogo{
+    margin-left: 200px;
+}
+
+#contact{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+#contact li{
+    margin-bottom: 15px;
+}
+
+#paris{
+    width: 70%;
+}

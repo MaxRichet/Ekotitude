@@ -1,0 +1,357 @@
+:root{
+    --white : #fff;
+    --black : #000;
+
+    --hover : #9bf1ff;
+    --main  : #BCDBE5;
+    --secondary : #0B3E1F;
+}
+
+html{
+	background-color: var(--main);
+	color: var(--white);
+	font-family: 'Roboto+Condensed', sans-serif;
+}
+
+nav{
+	position: relative;
+	float: right;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list{
+	display: flex;
+	justify-content: space-between;
+}
+
+button{
+	background: 0;
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.noback{
+	color: var(--white);
+	font-size: 25px;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.noback:hover{
+	color: var(--main);
+	transition: 0.5s;
+}
+
+#arrow{
+	margin-left: 25px;
+
+}
+
+#menu{
+	margin-right: 80px;
+}
+
+#menu li{
+	margin-right: 50px;
+	margin-top: 40px;
+}
+
+#blue{
+	color: var(--main);
+	border-bottom: solid 3px var(--main);
+}
+
+#menu a{
+	font-size: 25px;
+}
+
+.white{
+	color: var(--white);
+}
+
+.white:hover{
+	color: var(--main);
+	transition: 0.1s;
+	border-bottom: solid 3px var(--main);
+}
+
+.intro{
+	padding: 250px 250px 80px 250px; 
+	background: url(../images/partie1.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#test{
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+.intro h1{
+	position: relative;
+	font-size: 60px;
+	font-weight: bold;
+	width: 48%;
+	left: 850px;
+	bottom: 400px;
+	text-shadow: 2px 2px 2px var(--black);
+}
+
+.intro img{
+	position: relative;
+	width: 950px;
+	right: 75px;
+	bottom: 40px;
+}
+
+section{
+	background: url(../images/partie2.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.ekoterra img{
+	margin-left: 200px;
+	width: 35%;
+}
+
+#jeu span{
+	display: flex;
+}
+
+#jeu p{
+	font-size: 20px;
+	line-height: 35px;
+}
+
+#jeu h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px 2px var(--black);
+}
+
+section button{
+	background: var(--main);
+	border-radius: 30px;
+	padding: 15px 35px;
+	margin-top: 35px;
+	margin-left: 400px;
+}
+
+section button:hover{
+	background-color: var(--white);
+	transition: 0.5s;
+}
+
+section a{
+	color: var(--secondary);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#jeu{
+	width: 30%;
+	float: right;
+	margin-top: 250px;
+	margin-right: 150px;
+}
+
+.ecart{
+	margin-bottom: 25px;
+}
+
+#gandhi{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: -80px;
+	text-shadow: 4px 4px 5px var(--black);
+	position: relative;
+	z-index: 2;
+}
+
+#quotes{
+	position: relative;
+	font-size: 80px;
+	color: var(--secondary);
+	opacity: 0.5;
+	z-index: 1;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+#coaching img{
+	width: 30%;
+	margin-top: 320px;
+	margin-left: 500px;
+	padding-bottom: 154px;
+}
+
+#formation{
+	width: 30%;
+	float: right;
+	margin-top: 300px;
+	margin-right: 200px;
+}
+
+#formation p{
+	font-size: 20px;
+	margin-left: 100px;
+	line-height: 35px;
+}
+
+#formation h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px var(--black);
+}
+
+#formation button{
+	margin-top: 50px;
+}
+
+#ecartgrand{
+	margin-bottom: 80px;
+}
+
+#width{
+	width: 60%;
+}
+
+#taille{
+	width: 76%;
+}
+
+#valeur{
+	background: url(../images/partie3.png);
+	background-repeat: no-repeat;
+}
+
+#part3{
+	width: 45%;
+	margin-left: 550px;
+	padding-bottom: 150px;
+}
+
+#part3 h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px var(--black);
+	margin-bottom: 70px;
+}
+
+#part3 p{
+	font-size: 20px;
+	line-height: 35px;
+}
+
+footer{
+	display: flex;
+}
+
+footer h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#newsletter{
+	margin-top: 45px;
+	margin-left: 45px;
+}
+
+#newsletter h1{
+	margin-bottom: 15px;
+}
+
+#newsletter p{
+	width: 70%;
+}
+
+#newsletter a{
+	color: var(--white);
+	border-bottom: solid 1px var(--white);
+}
+
+#size{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#size2{
+	font-size: 12px;
+}
+
+input{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border: 0;
+	border-radius: 30px 0 0 30px;
+	padding: 10px 10px;
+	opacity: 0.7;
+}
+
+#newsletter button{
+	border-radius: 0 30px 30px 0;
+	padding: 10px 15px;
+	background-color: var(--white);
+}
+
+#newsletter button:hover{
+	color: var(--main);
+	transition: 0.5s;
+}
+
+#reseaux ul{
+	display: flex;
+}
+
+#reseaux{
+	margin-left: 100px;
+}
+
+#reseaux a{
+	color: var(--white);
+}
+
+#reseaux a:hover{
+	color: var(--secondary);
+	transition: 0.5s;
+}
+
+#reseaux li{
+	margin-left: 20px;
+	font-size: 25px;
+}
+
+#reseaux h1{
+	margin-left: 18px;
+	border-bottom: solid 3px var(--white);
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+#lelogo{
+	margin-left: 200px;
+}
+
+#contact{
+	margin-top: 45px;
+	margin-left: 100px;
+}
+
+#contact li{
+	margin-bottom: 15px;
+}
+
+#paris{
+	width: 70%;
+}
